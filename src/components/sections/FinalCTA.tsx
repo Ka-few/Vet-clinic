@@ -11,7 +11,7 @@ export function FinalCTA() {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1920&q=80&auto=format&fit=crop"
+          src="/images/vet surg.png"
           alt="Veterinary care background"
           loading="lazy"
           className="w-full h-full object-cover"
