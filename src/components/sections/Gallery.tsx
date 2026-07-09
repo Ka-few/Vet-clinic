@@ -6,7 +6,7 @@ import { ZoomIn } from 'lucide-react';
 
 const galleryImages = [
   {
-    src: '/images/staff playing with pets.png',
+    src: '/images/dogs playing under supervision.png',
     alt: 'Dogs enjoying supervised playtime',
     caption: 'Supervised Playtime',
     span: 'col-span-1 row-span-1',
@@ -18,19 +18,19 @@ const galleryImages = [
     span: 'col-span-1 row-span-2',
   },
   {
-    src: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80&auto=format&fit=crop',
+    src: '/images/cats boarding spaces.png',
     alt: 'Cats in clean boarding spaces',
     caption: 'Cat Boarding Spaces',
     span: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80&auto=format&fit=crop',
+    src: '/images/vet with pet.png',
     alt: 'Veterinarian examining a pet',
     caption: 'Professional Examination',
     span: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1629975064856-89f76b77f5f8?w=800&q=80&auto=format&fit=crop',
+    src: '/images/staff playing with pets.png',
     alt: 'Friendly staff with animals',
     caption: 'Friendly Care Team',
     span: 'col-span-1 row-span-1',
@@ -115,9 +115,8 @@ export function Gallery() {
               key={src}
               variants={item}
               onClick={() => setIndex(i)}
-              className={`relative rounded-2xl overflow-hidden cursor-pointer group shadow-card hover:shadow-card-hover transition-all duration-300 ${
-                i === 1 ? 'row-span-2' : i === 0 || i === 4 ? 'col-span-2' : ''
-              }`}
+              className={`relative rounded-2xl overflow-hidden cursor-pointer group shadow-card hover:shadow-card-hover transition-all duration-300 ${i === 1 ? 'row-span-2' : i === 0 || i === 4 ? 'col-span-2' : ''
+                }`}
             >
               <img
                 src={src}
