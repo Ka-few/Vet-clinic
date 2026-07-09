@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 export function FloatingWhatsApp() {
-  const phone = '254700000000'; // Replace with real number
+  const phone = '254746099001'; // Replace with real number
   const message = encodeURIComponent('Hello! I would like to book an appointment at P&J Veterinary Clinic.');
 
   return (

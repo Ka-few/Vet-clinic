@@ -16,7 +16,7 @@ const features = [
 export function Boarding() {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: '-80px' });
-  const whatsappUrl = `https://wa.me/254700000000?text=${encodeURIComponent('Hello! I would like to enquire about pet boarding at P&J Veterinary Clinic.')}`;
+  const whatsappUrl = `https://wa.me/254746099001?text=${encodeURIComponent('Hello! I would like to enquire about pet boarding at P&J Veterinary Clinic.')}`;
 
   return (
     <section id="boarding" className="section-padding bg-white dark:bg-dark-900">

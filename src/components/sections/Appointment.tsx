@@ -40,7 +40,7 @@ export function Appointment() {
     setSubmitted(true);
   };
 
-  const whatsappUrl = `https://wa.me/254700000000?text=${encodeURIComponent('Hello! I would like to book an appointment at P&J Veterinary Clinic. Please assist me with available times.')}`;
+  const whatsappUrl = `https://wa.me/254746099001?text=${encodeURIComponent('Hello! I would like to book an appointment at P&J Veterinary Clinic. Please assist me with available times.')}`;
 
   return (
     <section id="appointment" className="section-padding bg-slate-50 dark:bg-dark-800">

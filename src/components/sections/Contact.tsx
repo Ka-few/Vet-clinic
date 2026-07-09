@@ -5,15 +5,15 @@ const contactItems = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+254 700 000 000',
-    link: 'tel:+254700000000',
+    value: '+254 746 099 001',
+    link: 'tel:+254746099001',
     color: 'from-blue-500 to-cyan-500',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: '+254 700 000 000',
-    link: 'https://wa.me/254700000000',
+    value: '+254 746 099 001',
+    link: 'https://wa.me/254746099001',
     color: 'from-green-500 to-emerald-500',
   },
   {

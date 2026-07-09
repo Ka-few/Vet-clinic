@@ -7,7 +7,7 @@ export function Hero() {
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const whatsappUrl = `https://wa.me/254700000000?text=${encodeURIComponent('Hello! I would like to book an appointment at P&J Veterinary Clinic.')}`;
+  const whatsappUrl = `https://wa.me/254746099001?text=${encodeURIComponent('Hello! I would like to book an appointment at P&J Veterinary Clinic.')}`;
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">

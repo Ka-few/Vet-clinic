@@ -137,7 +137,7 @@ export function FAQ() {
           <p className="font-semibold mb-1">Still have questions?</p>
           <p className="text-sm text-primary-100 mb-4">Our team is happy to help you with any enquiries.</p>
           <a
-            href="https://wa.me/254700000000"
+            href="https://wa.me/254746099001"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-sm font-semibold text-primary-700 bg-white hover:bg-primary-50 transition-colors"
