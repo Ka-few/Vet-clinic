@@ -164,7 +164,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-500">
-            &copy; {currentYear} P&amp;J Veterinary Clinic. All rights reserved. | Nakuru, Kenya
+            &copy; {currentYear} P&amp;J Veterinary Clinic. All rights reserved. | Demo concept by Kafew Digital Solutions
           </p>
           <div className="flex items-center gap-4">
             <a href="#" className="text-xs text-slate-500 hover:text-slate-300 transition-colors">Privacy Policy</a>
