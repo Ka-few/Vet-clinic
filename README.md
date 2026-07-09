@@ -1,32 +1,60 @@
-# React + TypeScript + Vite
+# P&J Veterinary Clinic
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, premium, fully responsive landing page for **P&J Veterinary Clinic**, located along Maragoli Avenue, Nakuru, Kenya.
 
-Currently, two official plugins are available:
+This website was built to inspire trust, professionalism, compassion, and expertise. It features a modern healthcare aesthetic with smooth animations, excellent typography, generous spacing, and a clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Key Features
 
-## React Compiler
+* **Premium Healthcare Aesthetic:** Clean white background with soft green and teal accents.
+* **Fully Responsive:** Mobile-first design that looks beautiful on phones, tablets, and desktops.
+* **Dark Mode Support:** Seamless toggling between light and dark themes (saved to system preference / local storage).
+* **Smooth Animations:** Built with Framer Motion for beautiful scroll reveals, counter animations, and hover effects.
+* **Comprehensive Sections:**
+  * Hero with emotional imagery and quick Call-to-Actions.
+  * Trust Indicators with animated statistics.
+  * Dedicated Services & Pet Boarding sections.
+  * Interactive Appointment Form with form validation.
+  * FAQ Accordion and Masonry Photo Gallery.
+  * Interactive Contact section with embedded Google Maps.
+* **SEO Optimized:** Meta tags, Open Graph, Twitter Cards, and Schema.org JSON-LD structured data included.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technology Stack
 
-## Expanding the Oxlint configuration
+* **Framework:** React 19 + TypeScript
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS v3 (Custom themed)
+* **Animations:** Framer Motion
+* **Icons:** Lucide React
+* **Forms:** React Hook Form
+* **Gallery:** yet-another-react-lightbox
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🚀 Getting Started
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+To run this project locally:
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+
+* `src/components/layout/` - Global layout components (Navbar, Footer).
+* `src/components/sections/` - Individual page sections (Hero, About, Boarding, etc.).
+* `src/components/ui/` - Reusable UI elements (Buttons, Floating widgets).
+* `public/images/` - Local images and static assets.
+* `index.html` - Entry point and SEO metadata.
+
+## 📝 License
+Proprietary — Created for P&J Veterinary Clinic.
