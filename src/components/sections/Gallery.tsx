@@ -6,13 +6,13 @@ import { ZoomIn } from 'lucide-react';
 
 const galleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80&auto=format&fit=crop',
+    src: '/images/staff playing with pets.png',
     alt: 'Dogs enjoying supervised playtime',
     caption: 'Supervised Playtime',
     span: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80&auto=format&fit=crop',
+    src: '/images/friendly kennels.png',
     alt: 'Comfortable boarding kennels',
     caption: 'Comfortable Boarding Kennels',
     span: 'col-span-1 row-span-2',
@@ -42,7 +42,7 @@ const galleryImages = [
     span: 'col-span-1 row-span-1',
   },
   {
-    src: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=800&q=80&auto=format&fit=crop',
+    src: '/images/girl cat owner.png',
     alt: 'Cat receiving care',
     caption: 'Cat Care',
     span: 'col-span-1 row-span-1',
